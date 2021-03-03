@@ -1,0 +1,44 @@
+{
+  "name": "svelte-typescript-postcss-template",
+  "version": "0.0.1",
+  "description": "template for building basic applications with Svelte",
+  "scripts": {
+    "start": "npm run build:dev -- --watch",
+    "build": "NODE_ENV=production npm run build:dev",
+    "build:dev": "rollup --config rollup.config.js",
+    "svelte:check": "svelte-check"
+  },
+  "author": "鸿则 <hungtcs@outlook.com> (https://github.com/hungtcs)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungtcs/svelte-typescript-postcss-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungtcs/svelte-typescript-postcss-template/issues"
+  },
+  "homepage": "https://github.com/hungtcs/svelte-typescript-postcss-template#readme",
+  "keywords": [
+    "svelte"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-html": "^0.2.3",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-typescript": "^8.2.0",
+    "postcss": "^8.2.6",
+    "rollup": "^2.40.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.32.8",
+    "svelte": "^3.35.0",
+    "svelte-check": "^1.2.0",
+    "svelte-preprocess": "^4.6.9",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.2"
+  }
+}
